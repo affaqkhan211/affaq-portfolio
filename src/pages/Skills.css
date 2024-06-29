@@ -1,0 +1,54 @@
+@keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .s:hover {
+    animation: jump 1s ease infinite;
+  }
+  
+  .skill-container {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-bar-1 {
+    width: 90%; /* Change this to the desired percentage */
+    height: 30px;
+    background-color: #4caf50;
+    text-align: right;
+    line-height: 30px; /* Aligns the text vertically */
+    color: white;
+    padding-right: 10px; /* Adds some padding on the right */
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .skill-bar-2 {
+    width: 65%; /* Change this to the desired percentage */
+    height: 30px;
+    background-color: #2196F3;
+    text-align: right;
+    line-height: 30px; /* Aligns the text vertically */
+    color: white;
+    padding-right: 10px; /* Adds some padding on the right */
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .skill-bar-3 {
+    width: 86%; /* Change this to the desired percentage */
+    height: 30px;
+    background-color: #ff9800;
+    text-align: right;
+    line-height: 30px; /* Aligns the text vertically */
+    color: white;
+    padding-right: 10px; /* Adds some padding on the right */
+    border-radius: 5px 0 0 5px;
+  }
+  

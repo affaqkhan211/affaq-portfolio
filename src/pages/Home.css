@@ -1,0 +1,39 @@
+.typing-text {
+    overflow: hidden; /* Ensures the text does not overflow the container */
+    border-right: .15em solid orange; /* Creates the typing cursor effect */
+    white-space: nowrap; /* Prevents the text from wrapping to the next line */
+    margin: 0 auto; /* Centers the text */
+    letter-spacing: .1em; /* Adds a bit of spacing between the letters */
+    animation: typing 3.5s steps(400, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+  }
+  
+  .start-typing {
+    animation: typing 3.5s steps(400, end), blink-caret .75s step-end infinite;
+  }
+  
+
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in {
+    animation: slide-in-right 1s ease-out forwards;
+  }
+  
